@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon app.js",
-    "prod": "PORT=8080 pm2 start app.js"
+    "prod": "PORT=8080 pm2 start app.js --name express-app-starter"
 
   },
   "keywords": [],
